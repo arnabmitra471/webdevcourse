@@ -1,0 +1,29 @@
+#container
+{
+    box-sizing: border-box;
+    width:500px;
+    height:500px;
+    border:2px solid green;
+    text-align:center;
+    margin:34px 25px;
+    background-color: rgba(95, 158, 160,0.5);
+}
+#container input
+{
+    margin: 10px;
+    padding:10px;
+    border:2px solid rgb(136, 175, 177);
+    border-radius:10px;
+}
+#addNums
+{
+    width:50%;
+    height:50%;
+    background-color:sandybrown;
+    border:4px ridge burlywood;
+    border-radius:10px;
+}
+#container label
+{
+    color:brown;
+}

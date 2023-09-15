@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+body
+{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+/* Declaring global variables with :root pseudo class selector */
+:root
+{
+    --blue-shade: #4e4e80;
+    --indigo-shade: #1a355e;
+    --gray-shade: #505050;
+    --purple-shade: #721796;
+    --red-shade: #ff6347;
+    --green-shade:rgb(54, 133, 119);
+}
+#num1
+{
+    margin:12px;
+    padding:12px;
+    border: 2px solid var(--indigo-shade);
+    border-radius: 20px;
+    color:rgb(59, 211, 59);
+    font-family:'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+#intro
+{
+    color: var(--purple-shade);
+}
+/* Defining local variables within this targeted class of the span element */
+span.bgPrimary
+{
+    --colorPrimary: rgb(62, 141, 86);
+    --color-bg: rgba(39, 95, 160, 0.658);
+    color: var(--colorPrimary);
+    background-color:var(--color-bg);
+    border:4px ridge rgb(60, 61, 156);
+    border-radius:15px;
+    font-weight:bold;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+#num2
+{
+    margin:14px;
+    padding:14px;
+    border: 2px solid var(--indigo-shade);
+    border-radius: 20px;
+    color:orangered;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+.a1
+{
+    color: var(--green-shade);
+    text-align:center;
+}
+#item1
+{
+    width: 300px;
+    height: 74px;
+    border: 2px solid #3a31bf;
+    border-radius:10px;
+    margin: 10px 15px;
+    padding:10px 15px;
+}
+#item2
+{
+    width: 300px;
+    height: 74px;
+    border: 2px solid #5650ad;
+    border-radius:10px;
+    margin: 10px 15px;
+    padding:10px 20px
+}
+#item3
+{
+    width: 300px;
+    height: 74px;
+    border: 2px solid #7468b9;
+    border-radius:10px;
+    margin: 10px 15px;
+    padding:10px 25px;
+}
+

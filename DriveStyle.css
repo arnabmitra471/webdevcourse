@@ -1,0 +1,28 @@
+.container
+{
+    width: 400px;
+    height: 200px;
+    border: 2px solid rgb(24, 43, 151);
+    border-radius: 20px 10px;
+}
+input{
+    margin: 10px 5px;
+    padding: 10px 16px;
+    border: 2px solid sandybrown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    caret-color:rgb(100, 53, 19);
+}
+.btn
+{
+    background-color:#4caf50;
+    border:none;
+    color:#ffffff;
+    padding:15px 32px;
+    display:inline-block;
+    font-size: 16px;
+}
+.btn:hover
+{
+    background-color: rgb(112, 112, 19);
+}
