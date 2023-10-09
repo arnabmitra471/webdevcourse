@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@200;300&family=Ubuntu:wght@300;400&display=swap');
+*{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Onest', sans-serif;
+}
+.container
+{
+    width:900px;
+    border:4px solid purple;
+    margin: 33px auto;
+    background-color:rgb(241, 232, 223);
+}
+.item
+{
+    border:2px solid gray;
+    margin:12px 3px;
+    padding:12px 3px;
+    background-color: rgb(214, 194, 223)
+}
+#fruit
+{
+    float:left;
+    width: 48%;
+}
+#computer
+{
+    float:right;
+    width:48%;
+}
+#stationary
+{
+    /* float:left; */
+    width: 100%;
+    clear:both;
+}
+p,h3
+{
+    text-align:justify
+}
+h1
+{
+    margin: 23px auto;
+    width: 455px;
+}
