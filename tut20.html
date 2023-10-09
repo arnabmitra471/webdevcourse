@@ -5,8 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> CSS Box Model</title>
     <style>
+        *{
+            box-sizing:border-box;
+            margin:0;
+            padding:0;
+        }
+        body
+        {
+            background-color:#e6cbf8;
+        }
         .container
         {
+            width:600px;
+            height:auto;
             background-color: rgb(231,230,241);
             border: 2px solid rgb(64,6,119);
             /* padding-top: 79px;
@@ -14,23 +25,28 @@
 
             padding-left: 34px; 
             padding-right:34px; */
-            padding:23px 56px 6px 78px;
-            margin:34px;
+            /* padding:23px 56px 6px 78px; */
+             padding: 34px 19px; /* padding:y(top-bottom)x(left-right) */
+            border-radius: 23px;
+            margin-top:3px;
+            margin-bottom:5px;
+            margin-left: 34px;
+            margin-right:5px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h3>This is a heading</h3>
-        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus illo necessitatibus aut tempore inventore fugit, laudantium facilis, illum expedita id a omnis vel.</p>
+        <p id="first">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum aperiam debitis temporibus eius eligendi incidunt quam veniam. Quos cupiditate temporibus magni, nam dolorem quod, asperiores harum eveniet, ut nemo neque. Eius repellat iste ut adipisci nesciunt odio eveniet, impedit autem repudiandae, tempore deleniti dolore minus rerum corrupti, eaque omnis natus possimus laudantium illo dolor molestias atque magnam. Et, qui saepe ullam inventore iure sed earum laborum officia, veniam nisi magnam. Ipsum dolor esse repellendus nihil perspiciatis maxime ex. Voluptatibus repellendus consequuntur vel culpa. Perferendis voluptate, delectus ducimus deserunt et minus maxime dignissimos aut, at deleniti magni rerum quod veritatis aperiam.</p>
     </div> <!--end container-->
     <div class="container">
         <h3>This is a heading</h3>
-        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus illo necessitatibus aut tempore inventore fugit, laudantium facilis, illum expedita id a omnis vel.</p>
+        <p id="second">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum aperiam debitis temporibus eius eligendi incidunt quam veniam. Quos cupiditate temporibus magni, nam dolorem quod, asperiores harum eveniet, ut nemo neque. Eius repellat iste ut adipisci nesciunt odio eveniet, impedit autem repudiandae, tempore deleniti dolore minus rerum corrupti, eaque omnis natus possimus laudantium illo dolor molestias atque magnam. Et, qui saepe ullam inventore iure sed earum laborum officia, veniam nisi magnam. Ipsum dolor esse repellendus nihil perspiciatis maxime ex. Voluptatibus repellendus consequuntur vel culpa. Perferendis voluptate, delectus ducimus deserunt et minus maxime dignissimos aut, at deleniti magni rerum quod veritatis aperiam</p>
     </div> <!--end container-->
     <div class="container">
         <h3>This is a heading</h3>
-        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus illo necessitatibus aut tempore inventore fugit, laudantium facilis, illum expedita id a omnis vel.</p>
+        <p id="third">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum aperiam debitis temporibus eius eligendi incidunt quam veniam. Quos cupiditate temporibus magni, nam dolorem quod, asperiores harum eveniet, ut nemo neque. Eius repellat iste ut adipisci nesciunt odio eveniet, impedit autem repudiandae, tempore deleniti dolore minus rerum corrupti, eaque omnis natus possimus laudantium illo dolor molestias atque magnam. Et, qui saepe ullam inventore iure sed earum laborum officia, veniam nisi magnam. Ipsum dolor esse repellendus nihil perspiciatis maxime ex. Voluptatibus repellendus consequuntur vel culpa. Perferendis voluptate, delectus ducimus deserunt et minus maxime dignissimos aut, at deleniti magni rerum quod veritatis aperiam</p>
     </div> <!--end container-->
 </body>
 </html>
