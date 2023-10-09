@@ -38,10 +38,14 @@ body
 }
 p,h3
 {
-    text-align:justify
+    text-align:justify;
 }
 h1
 {
     margin: 23px auto;
     width: 455px;
+}
+h3
+{
+    text-decoration:underline;
 }
