@@ -13,8 +13,9 @@
             display: flex;
             /* Default value of flex-direction is row */
             /* flex-flow: row-reverse wrap; */
+            /* justify-content: space-around; */
             flex-wrap: wrap;
-            justify-content: space-evenly;
+            align-items: stretch;
         }
         .item
         {
@@ -24,6 +25,16 @@
             border:2px solid green;
             margin:10px;
             padding:5px;
+        }
+        #item-2
+        {
+            /* order:40;  */
+            flex-shrink: 4;
+            flex-basis: 160px;
+        }
+        #item-3
+        {
+            align-self: center;
         }
     </style>
 </head>
@@ -38,15 +49,6 @@
         </div>
         <div class="item" id="item-3">
             This is third box
-        </div>
-        <div class="item" id="item-4">
-            This is fourth box
-        </div>
-        <div class="item" id="item-5">
-            This is fifth box
-        </div>
-        <div class="item" id="item-6">
-            This is sixth box
         </div>
     </div>
 </body>
