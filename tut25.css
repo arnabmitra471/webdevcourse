@@ -22,3 +22,9 @@
     position:sticky;
     top:3px;
 }
+#box2
+{
+    position:fixed;
+    top:40px;
+    right:500px;
+}
