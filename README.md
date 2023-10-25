@@ -33,10 +33,65 @@ function printName(name)
     console.log(name)
 }
 ```
+# Selectors in CSS
+There are four types of basic selectors in CSS
+
+* Element Selector
+* Id Selector
+* Class Selector
+* Grouping Selector
+
+
+## Element selector
+This code prints the name passed to the function in the console.
 ```CSS
 p
 {
     background-color: red;
     text-align: center
+}
+```
+This is an example of element selector in CSS. In this example all `p` elements on the webpage are selected and the `background-color: red` declaration makes their background color red
+
+## ID Selector
+If we want to style only the `p` element with `id="first para` so we can target the that particular paragraph by its Id using the id selector in CSS. To select a particular element by its id we can write `#id`
+
+```CSS
+p#firstPara
+{
+    border: 2px solid cornflowerblue;
+    font-family: tahoma;
+    font-size: 23px;
+    font-weight: bold;
+}
+```
+
+## Class Selector
+
+Class Selector allows us to select elements on the webpage by their class name. The class selector is represented by the . (period) character.
+
+Have a look at the following code that illustrates this.
+
+```CSS
+.box
+{
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    color: yellow;
+    background-color: dodgerblue
+}
+```
+In the example code above the `.box` class is styled with the specified properties
+
+## Grouping selector
+
+The grouping selector is used when we want to apply the same style to multiple elements. For eg.
+
+```CSS
+p,span
+{
+    color: orange;
+    background-color: khaki;
 }
 ```
