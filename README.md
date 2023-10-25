@@ -1,6 +1,16 @@
 Table of contents
 [Introduction](#webdevcourse)
 
+[CSS Selectors](#selectors-in-css)
+
+[Element Selector](#element-selector)
+
+[Id Selector](#id-selector)
+
+[Class Selector](#class-selector)
+
+[Grouping Selector](#grouping-selector)
+
 [detaiils about core web development](#details-about-the-tutorial)
 # webdevcourse
 In This repository there is everything from starting to end in the web development course.
