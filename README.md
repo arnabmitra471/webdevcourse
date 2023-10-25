@@ -30,6 +30,7 @@ hello()
 
 function printName(name)
 {
+    // This code prints the name passed to the function in the console.
     console.log(name)
 }
 ```
@@ -43,7 +44,6 @@ There are four types of basic selectors in CSS
 
 
 ## Element selector
-This code prints the name passed to the function in the console.
 ```CSS
 p
 {
