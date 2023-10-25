@@ -1,3 +1,7 @@
+**Image Resources to use**
+
+![logo](https://github.com/arnabmitra471/webdevcourse/assets/140898648/a941df66-7a9e-4aa8-a509-49ad5cd0a891)
+![bg](https://github.com/arnabmitra471/webdevcourse/assets/140898648/8b977b4c-4c45-45eb-9c64-33c383450d00)
 Table of contents
 [Introduction](#webdevcourse)
 
