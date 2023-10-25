@@ -27,6 +27,11 @@ let hello = ()=>{
 }
 
 hello()
+
+function printName(name)
+{
+    console.log(name)
+}
 ```
 ```CSS
 p
